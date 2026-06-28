@@ -95,7 +95,7 @@ Python-only; supported-heavy class balance (64/21/14, disclosed); the contradict
 
 ## Related work
 
-RepoVeritas extends the sufficiency-verification direction in LLM grounding — see Chlon et al., ISR sufficiency verifier (arXiv:2509.11208). *(Confirm / expand this citation.)*
+RepoVeritas relates to recent work on sufficiency verification in LLM grounding (e.g. Chlon et al., arXiv:2509.11208).
 
 ## Citation
 
