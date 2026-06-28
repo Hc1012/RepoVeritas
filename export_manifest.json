@@ -1,0 +1,47 @@
+{
+  "exporter": "export_dataset_v1_3.py",
+  "exported_at_utc": "2026-06-26T01:29:32.756855Z",
+  "input": "labels_v1_split.jsonl",
+  "input_sha256": "c1b42db7f11f7a3c6c01e69ffab54099f30ee72d033c3242f5abfc11171b61a1",
+  "seed": 13,
+  "validation_passed": true,
+  "pair_policy": "warn",
+  "source_pairs_detected": 36,
+  "cross_split_pairs": 0,
+  "contrast_n": 0,
+  "total_in": 378,
+  "rejects_dropped": 84,
+  "kept": 294,
+  "model_facing_fields": [
+    "id",
+    "task_family",
+    "claim",
+    "evidence_spans"
+  ],
+  "splits": {
+    "dev": {
+      "n": 87,
+      "by_label": {
+        "supported": 56,
+        "contradicted": 12,
+        "insufficient": 19
+      },
+      "by_family": {
+        "docstring_function": 41,
+        "commit_diff": 46
+      }
+    },
+    "test": {
+      "n": 207,
+      "by_label": {
+        "contradicted": 30,
+        "supported": 133,
+        "insufficient": 44
+      },
+      "by_family": {
+        "docstring_function": 97,
+        "commit_diff": 110
+      }
+    }
+  }
+}
