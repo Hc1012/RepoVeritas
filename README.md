@@ -102,7 +102,7 @@ RepoVeritas extends the sufficiency-verification direction in LLM grounding — 
 ```bibtex
 @misc{repoveritas2026,
   title  = {RepoVeritas: A Three-Way Code-Grounding Benchmark with an Abstention Class},
-  author = {Harry},
+  author = {Hadi Chamas},
   year   = {2026},
   url    = {https://github.com/Hc1012/repoveritas}
 }
